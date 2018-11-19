@@ -1,18 +1,19 @@
 import React from "react";
 import { connect } from "react-redux";
-import walkSprite from "./sprite-sheet.png";
+import sprite from "./sprit.png";
+import handleMovement from "./movement"
 
 function Player(props) {
     return (
         <div
             style={{
-                position: "relative",
+                position: "absolute",
                 top: props.position[1],
                 left: props.position[0],
-                backgroundImage: 'url(${walkSprite})',
+                backgroundImage: `url(${sprite})`,
                 backgroundPosition: "0 0",
-                width: "40px",
-                height: "40px"
+                width: "30px",
+                height: "75px"
             }}
         />
     )
@@ -20,9 +21,8 @@ function Player(props) {
 
 function mapStateToProps(state) {
     return {
-        ...state.props,
-        position: state.position
+        ...state.player
     }
 }
 
-export default connect()(Player);
+export default connect(mapStateToProps)(handleMovement(Player));

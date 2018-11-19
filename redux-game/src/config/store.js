@@ -1,12 +1,12 @@
 import { createStore, combineReducers } from "redux";
 import playerReducer from "../features/player/reducer";
 
-const rootReducers = combineReducers({
+const rootReducer = combineReducers({
     player: playerReducer
 })
 
 const store = createStore(
-    rootReducers,
+    rootReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 
