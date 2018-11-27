@@ -12,8 +12,8 @@ function Player(props) {
                 left: props.position[0],
                 backgroundImage: `url(${sprite})`,
                 backgroundPosition: "0 0",
-                width: "35px",
-                height: "70px"
+                width: "40px",
+                height: "40px"
             }}
         />
     )
