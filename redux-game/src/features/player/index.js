@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import sprite from "./sprit.png";
+import sprite from "./sprite-sheet.png";
 import handleMovement from "./movement"
 
 function Player(props) {
@@ -11,7 +11,7 @@ function Player(props) {
                 top: props.position[1],
                 left: props.position[0],
                 backgroundImage: `url(${sprite})`,
-                backgroundPosition: "0 0",
+                backgroundPosition: props.spriteLocation,
                 width: "40px",
                 height: "40px"
             }}
