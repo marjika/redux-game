@@ -1,4 +1,4 @@
-#Redux Practice
+<h2>Redux Practice</h2>
 
 This application was created for practice in using React Redux.
 
