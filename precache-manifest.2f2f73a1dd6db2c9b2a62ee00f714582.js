@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/redux-game/static/js/runtime~main.c949e0a5.js"
   },
   {
-    "revision": "14c22aa456d39288aae6",
-    "url": "/redux-game/static/js/main.14c22aa4.chunk.js"
+    "revision": "6693116b336f04bd0c6f",
+    "url": "/redux-game/static/js/main.6693116b.chunk.js"
   },
   {
     "revision": "edbed080d6c0a2378e0c",
     "url": "/redux-game/static/js/1.edbed080.chunk.js"
   },
   {
-    "revision": "14c22aa456d39288aae6",
-    "url": "/redux-game/static/css/main.50ee8c0e.chunk.css"
+    "revision": "6693116b336f04bd0c6f",
+    "url": "/redux-game/static/css/main.4681e270.chunk.css"
   },
   {
-    "revision": "8f0334bdf7cf0ada0f135ecb1cc975a3",
+    "revision": "0f2721bf68e251b6f623aafd5af3ae61",
     "url": "/redux-game/index.html"
   }
 ];
